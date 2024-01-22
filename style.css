@@ -117,9 +117,8 @@ header {
   font-weight: bold;
   cursor: pointer;
   transition: scale 0.2 ease;
-
 }
- 
+
 .btn_action_btm:hover {
   scale: 1.05;
 }
@@ -149,15 +148,11 @@ main .content {
 }
 
 .descriptiv .text_top {
-  background: -webkit-linear-gradient(#8176af, #c0b7e8);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #c0b7e8;
 }
 
 .descriptiv .text_bottom {
-  background: -webkit-linear-gradient(#8176af, #c0b7e8);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #c0b7e8;
 }
 
 main .content .btn {
@@ -233,7 +228,7 @@ main .content .btn img:hover {
   color: #fff;
 }
 
- .links_footer img {
+.links_footer img {
   width: 3rem;
   height: 3rem;
 }
@@ -253,9 +248,7 @@ main .content .btn img:hover {
 
 .main_footer .links_wrapper .links_footer a h3:hover,
 .copyright a h4:hover {
-  background: -webkit-linear-gradient(#b471db, #cdc6e9);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #c0b7e8;
 }
 
 .copyright {
@@ -302,7 +295,7 @@ main .content .btn img:hover {
   header {
     padding: 0 2.5rem;
   }
-  
+
   .copyright {
     display: none;
   }
@@ -347,7 +340,6 @@ main .content .btn img:hover {
     display: flex;
     gap: 1rem;
   }
-  
 
   .main_footer .links_wrapper .links_footer img,
   .copyright_mobile .links_copyright img {
@@ -373,7 +365,7 @@ main .content .btn img:hover {
     align-items: center;
     gap: 0.4rem;
   }
-  
+
   .copyright_mobile .links_copyright {
     display: flex;
     flex-direction: column;
@@ -381,37 +373,31 @@ main .content .btn img:hover {
     align-items: center;
     gap: 0.5rem;
   }
-  
+
   .copyright_mobile .links_copyright img {
     width: 2rem;
     height: 2rem;
   }
 
-  .copyright_mobile .links_copyright a h4, 
+  .copyright_mobile .links_copyright a h4,
   .copyright_mobile p {
     scale: 0.95;
   }
-  
-.copyright_mobile .links_copyright img:hover {
-  scale: 1.05;
-  background-color: #ffffff36;
-  border-radius: 30px;
-  border-width: 2px solid #000;
-}
 
-.main_footer .links_wrapper .links_footer img:active,
-.copyright_mobile .links_copyright img:active {
-  scale: 0.95;
-}
+  .copyright_mobile .links_copyright img:hover {
+    scale: 1.05;
+    background-color: #ffffff36;
+    border-radius: 30px;
+    border-width: 2px solid #000;
+  }
 
-.main_footer .links_wrapper .links_footer a h3:hover,
-.copyright_mobile a h4:hover {
-  background: -webkit-linear-gradient(#b471db, #cdc6e9);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+  .main_footer .links_wrapper .links_footer img:active,
+  .copyright_mobile .links_copyright img:active {
+    scale: 0.95;
+  }
 
-  
-
-  
+  .main_footer .links_wrapper .links_footer a h3:hover,
+  .copyright_mobile a h4:hover {
+    color: #c0b7e8;
+  }
 }
