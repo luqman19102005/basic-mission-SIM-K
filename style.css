@@ -338,7 +338,7 @@ main .content .btn img:hover {
 
   .main_footer .links_wrapper {
     display: flex;
-    gap: 1rem;
+    gap: 0.8rem;
   }
 
   .main_footer .links_wrapper .links_footer img,
